@@ -74,23 +74,23 @@ body {
           text-transform: uppercase;
           text-align: center;
           line-height: 50px; }
-      body .conteiner .contenido .footer {
+      body .conteiner .contenido footer {
         width: 100%;
         position: absolute;
         bottom: -50px;
         background: #fff;
         display: flex;
         justify-content: space-between; }
-        body .conteiner .contenido .footer .detalles {
+        body .conteiner .contenido footer .detalles {
           width: 20%;
           height: 100%;
           background: #7B1FA2; }
-          body .conteiner .contenido .footer .detalles .ion-android-calendar, body .conteiner .contenido .footer .detalles h2 {
+          body .conteiner .contenido footer .detalles .ion-android-calendar, body .conteiner .contenido footer .detalles h2 {
             font-size: 50px;
             text-align: center;
             padding-top: 20px;
             color: #fff; }
-          body .conteiner .contenido .footer .detalles h2 {
+          body .conteiner .contenido footer .detalles h2 {
             font-family: "Lato", sans-serif;
             font-size: 13px;
             text-transform: uppercase;

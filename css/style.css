@@ -1,0 +1,144 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+@import "https://fonts.googleapis.com/css?family=Lato";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  background: url(../img/fondo.jpg); }
+  body .conteiner {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px; }
+    body .conteiner .contenido {
+      width: 100%;
+      height: 500px;
+      background: url(../img/comida.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+      body .conteiner .contenido .macaron {
+        width: 200px;
+        height: 50px;
+        background: rgba(123, 31, 72, 0.9);
+        position: relative;
+        top: 70px;
+        left: -40px; }
+        body .conteiner .contenido .macaron h3 {
+          color: #fff;
+          font-family: "Lato", sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          line-height: 50px; }
+      body .conteiner .contenido .footer {
+        width: 100%;
+        position: absolute;
+        bottom: -50px;
+        background: #fff;
+        display: flex;
+        justify-content: space-between; }
+        body .conteiner .contenido .footer .detalles {
+          width: 20%;
+          height: 100%;
+          background: #7B1FA2; }
+          body .conteiner .contenido .footer .detalles .ion-android-calendar, body .conteiner .contenido .footer .detalles h2 {
+            font-size: 50px;
+            text-align: center;
+            padding-top: 20px;
+            color: #fff; }
+          body .conteiner .contenido .footer .detalles h2 {
+            font-family: "Lato", sans-serif;
+            font-size: 13px;
+            text-transform: uppercase;
+            margin-bottom: 20px; }
+      body .conteiner .contenido .datos {
+        width: 50%;
+        padding-left: 30px;
+        margin-top: 20px; }
+        body .conteiner .contenido .datos .ingredientes span {
+          color: #707070;
+          font-weight: bold;
+          margin: 20px 5px 0px 0px;
+          font-family: "Lato", sans-serif; }
+        body .conteiner .contenido .datos .ingredientes p {
+          color: #707070;
+          font-family: "Lato", sans-serif; }
+        body .conteiner .contenido .datos .consumers span {
+          color: #707070;
+          float: left;
+          font-weight: bold;
+          margin: 20px 5px 0px 0px;
+          font-family: "Lato", sans-serif;
+          vertical-align: middle; }
+        body .conteiner .contenido .datos .consumers .persona {
+          border-radius: 50%;
+          display: inline-block;
+          width: 50px;
+          height: 50px;
+          background: url("http://specials-images.forbesimg.com/imageserve/558c719ce4b05c2c343158d9/320x486.jpg?fit=scale&background=000000");
+          background-size: cover; }
+      body .conteiner .contenido .rating {
+        width: 20%;
+        vertical-align: top;
+        margin-top: 20px; }
+        body .conteiner .contenido .rating h2 {
+          font-family: "Lato", sans-serif;
+          font-size: 30px;
+          color: #707070;
+          text-align: center;
+          margin: 0; }
+        body .conteiner .contenido .rating .star {
+          width: 70%;
+          margin: auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around; }
+        body .conteiner .contenido .rating .star .ion-star, body .conteiner .contenido .rating .star .ion-ios-star-half {
+          color: #55DBCB;
+          font-size: 30px; }
+
+/*# sourceMappingURL=style.css.map */

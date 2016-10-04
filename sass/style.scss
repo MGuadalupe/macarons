@@ -1,0 +1,141 @@
+@import "reset";
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+@import 'https://fonts.googleapis.com/css?family=Lato';
+@import "vars";
+
+body{
+	background: url(../img/fondo.jpg);
+
+	.conteiner{
+		max-width: 800px;
+		position: relative;
+		margin: auto;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		.contenido{
+			width: 100%;
+			height: 500px;
+			background: url(../img/comida.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+
+			.macaron{
+				width: 200px;
+				height: 50px;
+				background: $color1-t;
+				position: relative;
+				top: 70px;
+				left: -40px;
+				h3{
+
+					color: $color-text;
+					font-family: $fuente1;
+					text-transform: uppercase;
+					text-align: center;
+					line-height: 50px;
+				}
+			}
+			.footer{
+				width: 100%;
+				position: absolute;
+				bottom: -50px;
+				background: $color2;
+				display: flex;
+    			justify-content: space-between;
+
+				.detalles{
+					width: 20%;
+					height: 100%;
+
+						background:$color1;
+						
+					.ion-android-calendar{
+						font-size: 50px;
+						text-align: center;
+						padding-top: 20px;
+						color:$color-text;
+						}
+
+						h2{
+							@extend.ion-android-calendar;
+							font-family: $fuente1;
+							font-size: 13px;
+							text-transform: uppercase;
+							margin-bottom: 20px;
+						}
+				
+				}
+			}
+			.datos{
+				
+					width: 50%;
+					padding-left: 30px;
+					margin-top: 20px;
+			.ingredientes{
+			
+				span{
+					color: $color-text-2;
+					font-weight: bold;
+					margin: 20px 5px 0px 0px;
+					font-family: $fuente1;
+					
+				}
+				p{
+					color: $color-text-2;
+				
+					font-family: $fuente1;
+				}
+			}
+			.consumers{
+				span{
+					color: $color-text-2;
+					float: left;
+					font-weight: bold;
+					margin: 20px 5px 0px 0px;
+					font-family: $fuente1;
+					vertical-align: middle;
+				}
+				.persona{
+					border-radius: 50%;
+					display: inline-block;
+					width: 50px;
+					height: 50px;
+					background: url('http://specials-images.forbesimg.com/imageserve/558c719ce4b05c2c343158d9/320x486.jpg?fit=scale&background=000000');
+					background-size: cover;
+				}
+			}
+			
+		}
+		.rating{
+				
+				width: 20%;
+				vertical-align: top;
+				margin-top: 20px;
+				h2{
+					font-family: $fuente1;
+					font-size: 30px;
+					color: $color-text-2;
+					text-align: center;
+					margin: 0;
+				}
+				.star{
+					width: 70%;
+					margin: auto;
+					display: flex;
+					flex-direction:row;
+					justify-content:space-around;
+					
+				}
+				.star .ion-star{
+					color: $color3;
+					font-size: 30px;
+
+				}
+				.ion-ios-star-half{
+					@extend .ion-star;
+				}
+			}	
+		}
+
+	}
+}
